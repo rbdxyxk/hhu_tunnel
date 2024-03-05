@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.suidao.mapper.RealYuzhiMapper">
+
+    <resultMap id="BaseResultMap" type="com.suidao.pojo.RealYuzhi">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="itemIndexId" column="item_index_id" jdbcType="BIGINT"/>
+            <result property="realDataStr" column="real_data" jdbcType="DOUBLE"/>
+            <result property="yuzhiDataStr" column="yuzhi_data" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,item_index_id,real_data,
+        yuzhi_data
+    </sql>
+<!--    <insert id="insertData" useGeneratedKeys="true" keyProperty="id">-->
+<!--        insert into real_yuzhi (itemId, realData, yuzhiData) values (#{itemId},#{realData},#{yuzhiData})-->
+<!--    </insert>-->
+</mapper>

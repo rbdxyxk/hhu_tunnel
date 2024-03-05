@@ -1,0 +1,25 @@
+server:
+  port: 9000
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  datasource:
+    url: jdbc:mysql://localhost:3306/sdgy?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
+    username: root
+    password: Zqt1413629738
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    map-underscore-to-camel-case: false
+
+sysconf:
+  uploadurl: /Users/zhangqingtian/Documents/隧道养护/file/
+  fireUrlPrefix: http://localhost:9000/file
+  pythonCompile: /home/user/anaconda3/bin/python
+  pythonFilepath: /home/user/dataException/code/python

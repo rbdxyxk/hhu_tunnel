@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.suidao.mapper.JianceFuhaoTypeMapper">
+
+    <resultMap id="BaseResultMap" type="com.suidao.pojo.JianceFuhaoType">
+            <id property="parentId" column="parent_id" jdbcType="BIGINT"/>
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="fuhao" column="fuhao" jdbcType="INTEGER"/>
+            <result property="type" column="type" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        parent_id,id,fuhao,
+        type
+    </sql>
+</mapper>

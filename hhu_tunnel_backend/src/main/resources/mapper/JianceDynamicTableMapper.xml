@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.suidao.mapper.DynamicTableMapper">
+
+    <resultMap id="BaseResultMap" type="com.suidao.pojo.JianceDynamicTable">
+            <result property="itemIndexId" column="item_index_id" jdbcType="BIGINT"/>
+            <result property="tableName" column="table_name" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        item_index_id,table_name
+    </sql>
+    <insert id="insertDatas">
+        insert into 
+        ${tablename}
+
+        <foreach collection="params.keys" item="key" open="(" close=")" separator=",">
+            <if test="key != 'children' and ((params[key] != '' and params[key] !=null) or params[key] == '0'.toString()) ">
+                ${key}
+            </if>
+        </foreach>
+    values
+        <foreach collection="params.keys" item="key" open="(" close=")" separator=",">
+            <if test="key != 'children'  and ((params[key] != '' and params[key] !=null) or params[key] == '0'.toString()) ">
+                #{params[${key}]}
+            </if>
+        </foreach>
+    </insert>
+    <update id="updateTableData">
+        update ${tablename} set
+        <foreach collection="params.keys" item="key"  separator=",">
+            <if test="key != 'children' and key != 'id'">
+                <choose>
+                <when test="params[key] != '0'.toString() and (params[key] == '' or params[key] == null)">
+                    ${key} = null
+                </when>
+                <otherwise>
+                ${key} =  #{params[${key}]}
+                </otherwise>
+                </choose>
+            </if>
+        </foreach>
+        <where>
+            id = #{params[id]}
+        </where>
+    </update>
+    <delete id="deleteTableDataById">
+        delete
+        from ${tablename}
+        <where>
+            id = #{id}
+        </where>
+    </delete>
+    <select id="getDataByTableName" resultType="java.util.Map">
+        select  *
+        from ${tableName}
+        <where>
+            suidao_id = #{suidaoId} and first_index_id = #{firstIndexId} and second_index_id = #{secondIndexId} and item_index_id = #{itemIndexId}
+        </where>
+        limit ${begin},${limit}
+    </select>
+    <select id="getTotal" resultType="java.lang.Long">
+        select count(*)
+        from ${tableName}
+        <where>
+            suidao_id = #{suidaoId} and first_index_id = #{firstIndexId} and second_index_id = #{secondIndexId} and item_index_id = #{itemIndexId}
+        </where>
+    </select>
+    <select id="getPredictDatas" resultType="java.util.Map">
+        select rq,${prop} as data
+        from ${tableName}
+        <where>
+            suidao_id = #{suidaoId} and first_index_id = #{firstIndexId} and second_index_id = #{secondIndexId} and item_index_id = #{itemIndexId}
+        and cdwz = #{cdwz} and rq between #{beginTime} and #{endTime}
+        </where>
+    </select>
+</mapper>
