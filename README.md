@@ -207,235 +207,209 @@ c. 并发处理技术应用：系统需要采用并发处理技术，对于大�
 # <a name="_toc2703"></a>**4 系统功能**
 ### <a name="_toc1191"></a>**4.1管养总览**
 #### **4.1.1 首页**
-![图片包含 图示
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.003.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/d1a1aac6-9d90-4ae2-957b-cb628046d9b6)
+
+描述已自动生成
 #### **4.1.2 左上角**
 上面是选择隧洞，展示最近7天的健康值
 
 下面是展示所有隧道近7天的健康值
 
-![图片包含 图表
+<img width="409" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/012d1704-f73e-4114-9258-fb7749b5078f">
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.004.png)
+
 #### **4.1.3 第一行中间**
 在地图上展示隧道位置
 
-![地图
+<img width="414" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/965343a7-f7e1-4340-a8cf-5b88d75a3d57">
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.005.png)
+
 #### **4.1.4 右上方** 
 管养系统的动态信息
 
-![手机屏幕截图
+<img width="419" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/e7e99eef-e800-4ded-a408-e47c0136f41a">
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.006.png)
 #### **4.1.5 左下角**
 显示隧道以及要解决的问题
 
-![表格
+<img width="424" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/b47d7f22-5c29-4a91-98ab-b783cc06a326">
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.007.png)
+
 #### **4.1.6 第二行中间**
-![表格
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.008.png)
+<img width="410" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/d2060b10-3223-4cb2-8dd9-5716b003b4e6">
+
 #### **4.1.7 右下角**
-![表格
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.009.png)
+<img width="423" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/d96b8d77-1c84-46e4-a445-de7b0919efe3">
+
 ### <a name="_toc23580"></a>**4.2 隧道群落**
 ![图形用户界面, 应用程序
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.010.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/447b10d7-ccbb-413b-8354-3ae4002cd6a6)
+
 #### **4.2.1左侧导航栏**
 点击隧道群落会展示当前系统所有的隧道，点击其中一个就可以进入对应隧道的界面
 
-![图片包含 图形用户界面
+<img width="409" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/f26c8d9c-75e1-4e59-a731-98edcb6aa749">
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.011.png)
 #### **4.2.2 左上方**
 下拉框选择对应的监测项目，展示近7天的安全度
 
-![图表, 折线图
+<img width="492" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/18d482f2-c39b-46d5-a93d-0543d77b6033">
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.012.png)
 #### **4.2.3中间**
 隧道三维图片展示
 
-![图片包含 游戏机
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/2bb4d968-184f-40bf-a803-ca96ec060bee)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.013.png)
 #### **4.2.4 右上角**
 病害动态统计可以选择裂缝,渗水，选择一个查看近7天的病害值和对应预警值
 
-![图形用户界面, 应用程序
-
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.014.png)
+<img width="640" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/3dd89db7-2710-4c17-9448-a2dad9f39569">
 
 实线是病害值，虚线是对应的预警值
 
-![图表, 折线图
+<img width="565" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/5a8f7718-1ab2-4d48-8c9e-7680ca976f9f">
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.015.png)
 #### **4.2.5 左下方**
 下拉框选择对应的测点
 
-![图形用户界面, 应用程序
-
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.016.png)
+<img width="360" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/de827f17-fc08-4eb8-95de-88a3c15aae2a">
 
 根据选择测点展示
 
-![图表, 折线图
+<img width="595" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/bca6e13d-9680-4cf3-9286-06b92dde518f">
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.017.png)
 #### **4.2.6 中间**
 下拉框选择对应的算法
 
-![图形用户界面, 应用程序
+<img width="409" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/2390aebd-3d5a-42b7-85cc-30d1102ed1bb">
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.018.png)
+<img width="560" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/90286335-5794-4321-803e-70cc9f7d826f">
 
-![图表, 折线图
-
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.019.png)
 #### **4.2.7 右下角**
 展示当前隧道的任务
 
-![表格
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/01afb886-a99c-4e74-9246-531d0dfeea2b)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.020.png)
 ### <a name="_toc3765"></a>**4.3管养日历**
 对需要管养的时间进行标记，显示为执行,进行中,已完成的数量
 
-![](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.021.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/c9fea0a5-a649-4695-946a-14c9845ce2ec)
+
 #### **4.3.1 检修日历**
-![](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.022.png)
+
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/101999ce-02b5-4c7c-a06a-c8161b28acb0)
+
 ### <a name="_toc28012"></a>**4.4 巡视检查**
 #### **4.4.1日常巡查**
-![图形用户界面, 应用程序
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.023.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/8f9a72de-ed03-463f-902c-b305ec24ff33)
+
 #### **4.4.2 左边树形结构**
 页面初始化会展示所有隧道以及每个隧道对应的巡查对象
 
-![文本, 表格
+<img width="640" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/b3705d87-e267-4ff2-8f30-276d8891f454">
 
-中度可信度描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.024.png)
 
 **4.4.2.1表格数据**
 
-![表格
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/90dd4ef3-261e-47ec-bc23-e7766cede788)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.025.png)
 
 **4.4.2.2添加数据**
 
-![图形用户界面, 应用程序
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/1ecf2d4c-eba0-4ebd-b83a-4c53a8d1267c)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.026.png)
 
 **4.4.2.3编辑数据**
 
-![图形用户界面, 应用程序
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/cddb02d1-58db-4189-b731-2e92fe735b87)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.027.png)
 
 **4.4.2.4删除数据**
 
-![图形用户界面, 应用程序
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/c55cb1c0-968e-4168-8686-7c7e5429d942)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.028.png)
 #### **4.4.3 病害统计**
-![图形用户界面, 应用程序
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.029.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/23217a5d-d5f8-45a9-8e92-1e27ff567729)
+
 ### <a name="_toc18799"></a>**4.5 监测检测**
 #### **4.5.1监测项目**
-![图形用户界面, 文本, 应用程序, 电子邮件
 
-描述已自动生成]
+<img width="640" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/0f4a43f0-ec16-465c-85f5-518af10afcea">
+
+
 #### **4.5.2树形图**
 展示所有隧道对应的监测项目
 
-![](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.031.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/bffa39f8-7cc9-4d70-84eb-618e5550621d)
+
 #### **4.5.3表格数据**
 根据选择的具体项目展示对应的数据
 
-![图形用户界面, 文本, 应用程序, 电子邮件
+<img width="640" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/208bec9f-f979-45f7-89e7-476ba29ef8cb">
 
-描述已自动生成]
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/b3559e43-34a8-4d64-8c6b-db8e220327fb)
 
-![图形用户界面, 文本, 应用程序
-
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.032.png)
 
 **4.5.3.1添加**
 
 根据表头，添加每一项的值
 
-![图形用户界面, 应用程序
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/6058f33f-fc8e-4087-ad42-0e9962a5e58e)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.033.png)
 
 **4.5.3.2编辑**
 
-![图形用户界面, 应用程序
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/44c4cb66-ce4a-4445-94e1-94bce940a361)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.034.png)
 
 **4.5.3.3预测**
 
-![图形用户界面, 应用程序
+<img width="640" alt="image" src="https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/8d1a316c-7469-4a9d-b5bc-3b74645ec093">
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.035.png)
 #### **4.5.4检测项目**
-![图形用户界面, 文本, 应用程序, 电子邮件
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.036.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/9720cba1-6f87-4933-9887-024ea0fb65d0)
+
 #### **4.5.4.1表格数据**
 展示实测值，阈值以及对应的大小关系
 
-![图形用户界面, 应用程序, Word
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/eadc5fff-df86-4c18-86b9-0d575354e4f3)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.037.png)
 #### **4.5.4.2添加数据**
 首先展示默认的初始值，如果没有选择防水卷材可以为空
 
-![图形用户界面, 应用程序
-
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.038.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/163cd8b6-ca1e-47b2-848a-e9c954860c45)
 
 根据选择防水材料会自动给出对应的阈值初始值
 
-![图形用户界面, 应用程序
-
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.039.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/339a768e-26c4-4088-b3a1-cf319d1017b0)
 
 点击计算，会根据输入的阈值和实测值以及关系进行判断，如果有不符合的会给出提示，然后安全状态判断为不安全
 
-![图形用户界面, 应用程序
-
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.040.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/ad284827-fea6-410f-bef0-50dacf1cae5f)
 
 当都符合则安全
 
-![图形用户界面, 应用程序
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/7aa64b37-1363-4069-abd1-db83225d0c3b)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.041.png)
+
 #### **4.5.4.3编辑**
 点击某一项值，可以更改对应的内容,同样也可以安全判断
 
-![图形用户界面, 应用程序
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/d72ae8a6-2e34-4312-9e4d-f138e3a0a287)
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.042.png)
 ### <a name="_toc31202"></a>**4.6土建管养**
-4\.6.1工程量清单
 
-![图形用户界面, 文本, 应用程序
+### **4.6.1工程量清单**
 
-描述已自动生成](Aspose.Words.267e3eac-5258-4a16-b059-2c1cf223dd04.043.png)
+![image](https://github.com/rbdxyxk/hhu_tunnel/assets/97138889/1dabc1a6-5fae-4cf7-90b3-a182710c1431)
+
 
 4\.6.2树形图添加
 
